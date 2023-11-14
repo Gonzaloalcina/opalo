@@ -1,0 +1,33 @@
+/*
+ Theme Name:     Opalo
+ Theme URI:      https://opalocstic.es/
+ Author:         Gonzalo Alcina
+ Author URI:     https://www.linkedin.com/in/gonzaloalcina/
+ Description:    Custom theme for a landing page
+ Version:        1.0.0
+ License:        GNU General Public License v2 or later
+ License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:    opalo
+ Domain Path:    /languages
+*/
+
+@import './css/global/reset.css';
+@import './css/fonts/fonts.css';
+
+:root {
+    --color-a: #1B483E;
+    --color-b: #4D8376;
+    --color-c: #D94B40;
+    --color-d: #fff;
+    --transition-a: all .3s ease-in-out;
+}
+
+
+
+
+ 
+
+
+
+
+

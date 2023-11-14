@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+html {
+    font-size: 14px;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4rem;
+    font-weight: 500;
+    color: var(--color-d);
+    overflow: hidden;
+    background: var(--color-a);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+fieldset {
+    border: none;
+}
+
+textarea,
+button{
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+textarea{
+    resize: vertical;
+}
