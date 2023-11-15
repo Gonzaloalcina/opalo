@@ -11,16 +11,6 @@
  Domain Path:    /languages
 */
 
-@import './css/global/reset.css';
-@import './css/fonts/fonts.css';
-
-:root {
-    --color-a: #1B483E;
-    --color-b: #4D8376;
-    --color-c: #D94B40;
-    --color-d: #fff;
-    --transition-a: all .3s ease-in-out;
-}
 
 
 

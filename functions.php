@@ -4,10 +4,10 @@
 // Enqueue de estilos y scripts
 function enqueue_custom_styles_and_scripts() {
     // Estilos
-    wp_enqueue_style('custom-style', get_stylesheet_uri());
+    wp_enqueue_style('custom-style', get_template_directory_uri() . '/dist/main.css', array(), '1.0', 'all');
 
     // Scripts
-    wp_enqueue_script('custom-script', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0', true);
+    wp_enqueue_script('custom-script', get_template_directory_uri() . '/dist/js/main.bundle.js', array('jquery'), '1.0', true);
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_custom_styles_and_scripts');

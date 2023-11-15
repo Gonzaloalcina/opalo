@@ -1,3 +1,5 @@
+import '../scss/styles.scss';
+
 class Home {
     constructor() {
         this.init();
@@ -10,4 +12,4 @@ class Home {
 
 }
 
-new Home;
+new Home();
