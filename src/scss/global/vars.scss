@@ -1,1 +1,43 @@
-$color-a: red;
+
+$deep-blue: #001489;
+$navy-blue: #001446;
+$off-white: #f2f1ef;
+$white: #fff;
+$green-blue: #00c389;
+
+$measure: 10px;
+
+$container-width: 1440px;
+
+$all: 0;
+$laptop: 1570px;
+$tablet: 1024px;
+$tablets: 810px;
+$mobile: 580px;
+$viewport-type: max-width;
+$viewport-layouts: (
+    "all": (
+        $viewport-type: $all,
+    ),
+    "laptop": (
+        $viewport-type: $laptop,
+    ),
+    "tablet": (
+        $viewport-type: $tablet,
+    ),
+    "tablets": (
+        $viewport-type: $tablets,
+    ),
+    "mobile": (
+        $viewport-type: $mobile,
+    ),
+);
+
+$time-a: .3s;
+$time-b: .6s;
+
+$border-radius-a: 30px;
+//border radius de imágenes grandes
+//border radius de imágenes diferentes
+
+  
